@@ -2,7 +2,7 @@
 
 DIR_IRI="iri"
 REPO_IRI="https://github.com/jserv/iri.git"
-ROCKSDB_VER="5.8.8"
+ROCKSDB_VER="5.9.2"
 
 # Specific IRI version to deploy
 if [ "$1" == "" ]; then

@@ -25,4 +25,3 @@ git clone https://github.com/yillkid/snappy-1.1.4.git
 
 # Build RocksDB
 ./BUILD.sh
-./DEPLOY_MAVEN.sh

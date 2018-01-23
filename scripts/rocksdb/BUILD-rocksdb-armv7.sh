@@ -6,9 +6,8 @@ export JAVA_HOME=/usr/lib/jvm/java-8-oracle
 
 #export CROSS_COMPILE=aarch64-linux-gnu-
 
-# FIXME: not specific to Cavium ThunderX
-# ARCH_FLAGS="-march=armv8-a+crc+crypto -mtune=thunderx"
-ARCH_FLAGS="-march=armv7-a -mtune=cortex-a17"
+# FIXME: not specific to rock64
+ARCH_FLAGS="-march=armv8-a+crc+crypto -mtune=cortex-a53"
 
 set -x
 make \

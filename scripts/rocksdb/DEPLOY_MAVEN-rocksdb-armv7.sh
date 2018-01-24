@@ -1,9 +1,10 @@
 #!/bin/sh
 
 VER=5.9.2
+OLDVER=5.8.8
 
 M2_ROCKSDBJNI=$HOME/.m2/repository/org/rocksdb/rocksdbjni/$VER
-JARBALL=java/target/rocksdbjni-$VER-linux64.jar
+JARBALL=java/target/rocksdbjni-$OLDVER-linux64.jar
 
 set -x
 

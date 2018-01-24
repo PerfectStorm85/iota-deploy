@@ -25,5 +25,6 @@ git clone https://github.com/yillkid/snappy-1.1.4
 
 # Build RocksDB
 rm -r ./snappy-1.1.4/configure
-cp ../iota-deploy/configs/configure ./snappy-1.1.4/configure 
-#./BUILD.sh
+cp ../iota-deploy/configs/configure ./snappy-1.1.4/configure
+chmod -R ugo+rwx ./snappy-1.1.4/configure
+./BUILD.sh

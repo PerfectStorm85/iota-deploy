@@ -21,7 +21,7 @@ cp -rf $DIR_SNAPPY-$VER_SNAPPY $DIR_ROCKSDB
 
 # Clone libsnappy 
 cd $DIR_ROCKSDB
-git clone https://github.com/PerfectStorm85/snappy-1.1.4
+git clone https://github.com/yillkid/snappy-1.1.4
 
 # Build RocksDB
 ./BUILD.sh

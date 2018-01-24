@@ -24,4 +24,4 @@ cd $DIR_ROCKSDB
 git clone https://github.com/PerfectStorm85/snappy-1.1.4
 
 # Build RocksDB
-# ./BUILD.sh
+./BUILD.sh

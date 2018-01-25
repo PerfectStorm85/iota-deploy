@@ -26,7 +26,7 @@ nohup java -server \
 	-XX:MaxHeapFreeRatio=10 -XX:MinHeapFreeRatio=5 \
         -XX:+UseCompressedOops \
 	-Djava.awt.headless=true \
-	-jar /home/ubuntu/$IRI \
+	-jar /iri/target/$IRI \
 	--config $2 \
         --remote-limit-api 'removeNeighbors, addNeighbors' --remote > nohup.out &
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DIR_IRI="iri"
-REPO_IRI="https://github.com/PerfectStorm85/iri"
+REPO_IRI="https://github.com/jserv/iri"
 ROCKSDB_VER="5.9.2"
 
 # Specific IRI version to deploy

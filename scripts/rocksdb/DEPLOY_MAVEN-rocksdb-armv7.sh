@@ -15,3 +15,5 @@ sha1sum $JARBALL | cut -f1 -d ' ' > $M2_ROCKSDBJNI/rocksdbjni-$VER.jar.sha1
 
 cp java/rocksjni.pom $M2_ROCKSDBJNI/rocksjni-$VER.pom
 sha1sum java/rocksjni.pom | cut -f1 -d ' ' > $M2_ROCKSDBJNI/rocksdbjni-$VER.pom.sha1
+
+mvn install:install-file -Dfile=$M2_ROCKSDBJNI/rocksdbjni-$VER.jar -DgroupId=org.rocksdb -DartifactId=rocksdbjni -Dversion=$VER -Dpackaging=jar
